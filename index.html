@@ -8,9 +8,45 @@
 </head>
 
 <body>
-    <h2>Apresentando tag de Link</h2>
-    <p>Para criar um link dentro de uma página web, é utilizado a tag <a href="pagina-link.html">a</a></p>
-    <p>O atributo necessário para indicar o caminho do link é <strong>href = "CAMINHO_DO_ARQUIVO"</strong></p>
+    <h2>Apresentando tags de tabela</h2>
+    <p>As tabelas são estruturas bastante utilizadas para apresentar conteúdos na web.</p>
+    <p>Para criar uma tabela, deve-se utilizar a tag <strong>table</strong></p>
+    <p>Dentro dessa tag serão inseridos outras tags. São elas:</p>
+    <ul>
+        <li><strong>th</strong>: cabeçalho da tabela (table head)</li>
+        <li><strong>tr</strong>: linha da tabela (table roll)</li>
+        <li><strong>td</strong>: dado da tabela (table data)</li>
+    </ul>
+    
+    <table border="1" width="100%" height="200px">
+        <tr>
+            <th>Título 1</th>
+            <th>Título 2</th>
+            <th>Título 3</th>
+            <th>Título 4</th>
+            <th>Título 5</th>
+            <th>Título 6</th>
+        </tr>
+        <tr>
+            <td><img src="images/joinha.jpg" width="100px" height="100px"/></td>
+            <td><strong>Item 2</strong></td>
+            <td><em>Item 3</em></td>
+            <td><u>Item 4</u></td>
+            <td><strike>Item 5</strike></td>
+            <td>Item 6</td>
+        </tr>
+        <tr>
+            <td>Item 7</td>
+            <td colspan="2">Item 8 ocupando duas colunas</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Item 9 ocupando duas linhas</td>
+            <td>Item 10</td>
+        </tr>
+        <tr>
+            <td>Item 11</td>
+        </tr>
+    </table>
 </body>
 
 </html>
