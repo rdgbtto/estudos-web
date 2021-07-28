@@ -8,45 +8,36 @@
 </head>
 
 <body>
-    <h2>Apresentando tags de tabela</h2>
-    <p>As tabelas são estruturas bastante utilizadas para apresentar conteúdos na web.</p>
-    <p>Para criar uma tabela, deve-se utilizar a tag <strong>table</strong></p>
-    <p>Dentro dessa tag serão inseridos outras tags. São elas:</p>
-    <ul>
-        <li><strong>th</strong>: cabeçalho da tabela (table head)</li>
-        <li><strong>tr</strong>: linha da tabela (table roll)</li>
-        <li><strong>td</strong>: dado da tabela (table data)</li>
-    </ul>
+    <h2>Apresentando tags de formulário</h2>
+    <p>Para a criação de um formulário em uma página web, é utilizada a tag form</p>
+    <p>E dentro dela, todos os itens que devem fazer parte do formulário, seja uma tag, texto ou qualquer outro tipo de conteúdo.</p>
     
-    <table border="1" width="100%" height="200px">
-        <tr>
-            <th>Título 1</th>
-            <th>Título 2</th>
-            <th>Título 3</th>
-            <th>Título 4</th>
-            <th>Título 5</th>
-            <th>Título 6</th>
-        </tr>
-        <tr>
-            <td><img src="images/joinha.jpg" width="100px" height="100px"/></td>
-            <td><strong>Item 2</strong></td>
-            <td><em>Item 3</em></td>
-            <td><u>Item 4</u></td>
-            <td><strike>Item 5</strike></td>
-            <td>Item 6</td>
-        </tr>
-        <tr>
-            <td>Item 7</td>
-            <td colspan="2">Item 8 ocupando duas colunas</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Item 9 ocupando duas linhas</td>
-            <td>Item 10</td>
-        </tr>
-        <tr>
-            <td>Item 11</td>
-        </tr>
-    </table>
+    <form>
+        <label>Campo de inserção de dados:</label><input type="text" name="usuario" placeholder="Insira um texto aqui"/><br />
+        <label>Campo para senha:</label><input type="password" name="senha"/><br />
+        <input type="button" value="Botão"/><br />
+        <input type="radio" name="escolha" />Radio 1
+        <input type="radio" name="escolha" />Radio 2<br />
+        <input type="checkbox"/>Checkbox 1<br />
+        <input type="checkbox"/>Checkbox 2<br />
+        <input type="checkbox"/>Checkbox 3<br />
+        <br />
+        <label>Caixa de opções</label>
+        <select>
+            <option>Opção 1</option>
+            <option>Opção 2</option>
+            <option>Opção 3</option>
+            <option>Opção 4</option>
+            <option>Opção 5</option>
+        </select>
+        <br />
+        <br />
+        <label>Caixa grande de texto:</label>
+        <textarea></textarea>
+        <br />
+        <br />
+        <input type="submit" />
+    </form>
 </body>
 
 </html>
