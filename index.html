@@ -8,36 +8,33 @@
 </head>
 
 <body>
-    <div id="menu">
-        Home | Quem somos | Contato
-    </div>
-    <div id="conteudo-principal">
-        <h1>Tags Div e Span</h1>
+    <div>
+        <h1>Bordas com CSS</h1>
     
-        <p>A tag <strong>div</strong> é utilizada para dividir os conteúdos de uma página web, criando diversos blocos de conteúdos ontem todos recebem formatações personalizadas.</p>
-        <p>A tag <strong>span</strong> é utilizada para criar elementos inline. <span class="negrito-violeta">Assim como a <strong>div</strong>, ele também divide o elemento, porém, mantém tudo dentro do mesmo espaço.</span></p>
-    </div>
-    <div id="rodape">
-        <p>Área dedicada para o rodapé da página.</p>
+        <p>A utilização do atributo <strong>border</strong> se dá através de três elementos.</p>
+        <ul>
+            <li><em>Espessura</em>: utilizando em pixels</li>
+            <li><em>Tipo</em>: indica qual estilo de borda será criado</li>
+            <li><em>Cor</em>: indica a coloração que a borda recebera</li>
+        </ul>
+        <p>Independentemente da ordem que for inserido, todos os elementos receberão o mesmo efeito.</p>
+        <p>Também é possível separar cada valor do atributo border alterando para seus atributos específicos.</p>
+        <ul>
+            <li><u>border-width</u></li>
+            <li><u>border-style</u></li>
+            <li><u>border-color</u></li>
+        </ul>
     </div>
 </body>
 
 <style>
-    #menu {
-        background-color: purple;
-    }
-    
-    #conteudo-principal {
-        background-color: skyblue;
-    }
-    
-    #rodape {
-        background-color: green;
-    }
-    
-    .negrito-violeta {
-        font-weight: bold;
-        color: violet;
+    div {
+        /*
+        border: 10px groove gray;
+        */
+        border-color: red green yellow blue;
+        border-style: groove solid;
+        border-width: 10px;
     }
 </style>
 </html>
