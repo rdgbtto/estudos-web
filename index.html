@@ -8,33 +8,37 @@
 </head>
 
 <body>
+    <div class="cabecalho">
+        <h1>Fontes e cores com CSS</h1>
+    </div>
     <div>
-        <h1>Bordas com CSS</h1>
-    
-        <p>A utilização do atributo <strong>border</strong> se dá através de três elementos.</p>
-        <ul>
-            <li><em>Espessura</em>: utilizando em pixels</li>
-            <li><em>Tipo</em>: indica qual estilo de borda será criado</li>
-            <li><em>Cor</em>: indica a coloração que a borda recebera</li>
-        </ul>
-        <p>Independentemente da ordem que for inserido, todos os elementos receberão o mesmo efeito.</p>
-        <p>Também é possível separar cada valor do atributo border alterando para seus atributos específicos.</p>
-        <ul>
-            <li><u>border-width</u></li>
-            <li><u>border-style</u></li>
-            <li><u>border-color</u></li>
-        </ul>
+        <p>Para atribuir <label class="cor">cores</label> em CSS, basta inserir um <strong>código hexadecimal</strong>, o <strong>código RGB</strong>, ou escrevendo o nome da cor em inglês</p>
+        <p class="fonte-um">Para atribuir <label class="fonte-dois">fontes</label> em CSS, basta modificar o atributo <strong>font-family</strong>.</p>
     </div>
 </body>
 
 <style>
-    div {
+    .cabecalho {
         /*
         border: 10px groove gray;
         */
         border-color: red green yellow blue;
         border-style: groove solid;
         border-width: 10px;
+    }
+    
+    .cor {
+        color: #2ECCFA;
+        font-size: 20px;
+    }
+    
+    .fonte-um {
+        font-family: "Copperplate", fantasy;
+    }
+    
+    .fonte-dois {
+        font-family: "Lucida Handwriting", cursive;
+        font-size: 20px;
     }
 </style>
 </html>
