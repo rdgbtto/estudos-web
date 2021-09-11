@@ -1,0 +1,53 @@
+/* limpando formatação padrão */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #F3F3F3;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link {
+    color: #838383;
+}
+
+a:visited {
+    color: #838383;
+}
+
+a:hover {
+    color: #FFF;
+    background: #B9C941;
+}
+
+#navegacao {
+    background: #FFF;
+    border-bottom: 1px solid #D8D8D8;
+    height: 45px;
+}
+
+#area {
+    width: 720px;
+    margin: 0px auto;
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    padding: 10px 0px;
+}
+
+.verde {
+    color: #B9C941;
+}
