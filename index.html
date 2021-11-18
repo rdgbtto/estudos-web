@@ -3,6 +3,11 @@
 <head>
   <title>Introdução HTML 5</title>
   <meta charset="utf-8">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
 </head>
 <body>
   <header>
@@ -18,6 +23,20 @@
       <li><a href="#">Link 3</a></li>
     </ul>
   </nav>
+
+  <article>
+    <h3>Postagem de conteúdos (TAG ARTICLE)</h3>
+    <section>
+      <h4>Separação de áreas de postagem (TAG SECTION)</h4>
+      <p>Utilize a tag ARTICLE para criar as áreas de conteúdo do site.</p>
+      <p>Com a combinação da tag SECTION é possível separar por seções o conteúdo dentro da tag ARTICLE</p>
+    </section>
+
+    <section>
+      <h4>Outra seção de postagem (TAG SECTION)</h4>
+      <p>Essa é outra seção de postagem. Repare que ela está dentro da área dedicada as postagem (tag ARTICLE).</p>
+    </section>
+  </article>
 
   <footer>
     <span>Rodapé utilizando o tag FOOTER</span>
@@ -39,5 +58,15 @@
   footer {
     border: 1px solid red;
     margin-top: 5px;
+  }
+
+  article {
+    border: 1px solid orange;
+    padding: 5px 1px;
+  }
+
+  section {
+    border: 1px solid black;
+    margin: 5px;
   }
 </style>
